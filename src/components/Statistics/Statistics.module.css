@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    height: 100%;
+    /* justify-content: center; */
+}
+
+.title{
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+.cards{
+display: flex;
+justify-content: space-between;
+font-weight: wrap;
+}
+
+.cards>:nth-child(1){
+    align-items: center;
+    display: flex;
+    gap: 0.8em;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    color: var(--grey);
+}
+
+.card>:nth-child(1){
+    font-size: 0.8em;
+}
+
+.card>:nth-child(2){
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.arrow{
+    width: 2em;
+    height: 2em;
+    background-color: var(--orange);
+    border-radius: 1em;
+}
+
+.arrow > svg{
+    width: 2em;
+    height: 2em;
+}

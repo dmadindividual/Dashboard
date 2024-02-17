@@ -1,0 +1,17 @@
+.background{
+    background-color: black;
+    color: white;
+}
+
+.table_container{
+    padding: 3rem 5rem;
+}
+
+.table_container>:nth-child(1){
+border-radius: 10px !important;
+overflow: hidden !important;
+}
+
+.MuiTableRow-root, .MuiTableCell-root{
+    border: none;
+}

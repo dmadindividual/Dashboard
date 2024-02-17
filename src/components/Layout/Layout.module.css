@@ -1,0 +1,103 @@
+.container{
+    display: flex;
+}
+
+.dashboard{
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+
+.topBaseGradients{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 20rem;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.topBaseGradients>:nth-child(2){
+    left: 40%;
+
+}
+
+.topBaseGradients>:nth-child(3){
+    right: 0;
+
+}
+
+.header{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 2rem 4rem;
+}
+
+.header >:nth-child(1){
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.searchbar{
+    background-color: rgba(255, 255, 255, 0.496);
+    display: flex;
+    width: 30%;
+    max-width: 25rem;
+
+    border: none;
+    padding: 1rem 1rem;
+    height: 2rem;
+    align-items: center;
+    border: 2px solid rgb(63,63,63);
+border-radius: 9px;
+justify-content: center;
+gap: 8px;
+}
+
+.searchbar>input{
+    outline: none;
+    background: transparent;
+    color: white;
+    border: none;
+    width: 100%;
+}
+
+.profile{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.details>:nth-child(){
+font-size: 1rem;
+}
+
+.content{
+    margin: auto;
+    display: flex;
+    height: 100vh;
+     align-items: center;  
+    margin-top: -4rem;
+    /* margin-top: -4rem; */
+}
+
+.content>div{
+    width: 100%;
+    min-height: 75vh;
+}
+
+@media screen and (max-width: 768px){
+    .searchbar{
+        display: none;
+    }
+    
+}
